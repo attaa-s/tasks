@@ -64,7 +64,13 @@ const Singletodo = (props) => {
           <option value="Finished">Finished</option>
         </select>
         <div>
-          <button onClick={delethandler}>deletetask</button>
+          <br />
+        </div>
+
+        <div>
+          <button className="btn" onClick={delethandler}>
+            deletetask
+          </button>
         </div>
       </div>
     </div>

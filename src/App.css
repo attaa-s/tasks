@@ -39,8 +39,10 @@
 
 .finished{
   background-color: rgb(120, 253, 120);
-  
+    border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   font-style: italic;
+  
 ;
 }
 
@@ -77,7 +79,17 @@
   
 }
 
-
+.btn{
+  background-color: #61dafb;
+  padding: 5px;
+  
+}
 .container {
   columns: 2 auto;
+}
+
+.card{
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
