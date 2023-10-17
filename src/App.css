@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +30,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.two{
+ display: grid;
+ grid-column: 2;
+}
+
+.finished{
+  background-color: rgb(120, 253, 120);
+  
+  font-style: italic;
+;
+}
+
+.notfinished{
+  background-color: transparent;
+ 
+  font-style:normal
+}
+
+.progress{
+  background-color: rgb(240, 253, 120);
+  
+  font-style: italic;
+}
+.navgeneral{
+  padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: block;
+    text-align: center;
+    background-color: rgb(170, 177, 192);
+    height: fit-content;
+    font-weight: 500;
+    justify-content: center;
+    font-size:larger;
+    
+}
+.navitem{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.container {
+  columns: 2 auto;
 }
